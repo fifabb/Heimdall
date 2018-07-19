@@ -67,228 +67,223 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./components/Header.js":
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row/style/css");
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row");
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/col/style/css");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/col");
+
+/***/ }),
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/Header.js";
+
+// EXTERNAL MODULE: external "antd/lib/row/style/css"
+var css_ = __webpack_require__(3);
+var css__default = /*#__PURE__*/__webpack_require__.n(css_);
+
+// EXTERNAL MODULE: external "antd/lib/row"
+var row_ = __webpack_require__(4);
+var row__default = /*#__PURE__*/__webpack_require__.n(row_);
+
+// EXTERNAL MODULE: external "antd/lib/col/style/css"
+var style_css_ = __webpack_require__(5);
+var style_css__default = /*#__PURE__*/__webpack_require__.n(style_css_);
+
+// EXTERNAL MODULE: external "antd/lib/col"
+var col_ = __webpack_require__(6);
+var col__default = /*#__PURE__*/__webpack_require__.n(col_);
+
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__(1);
+var style__default = /*#__PURE__*/__webpack_require__.n(style_);
+
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
+
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(8);
+var head__default = /*#__PURE__*/__webpack_require__.n(head_);
+
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(2);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
+
+// CONCATENATED MODULE: ./components/Header.js
 
 
 var linkStyle = {
   marginLeft: 20
 };
 
-var Header = function Header() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, "FIFABB")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/ol4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, "FIFA OL4")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
-    href: "/ffm",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
+var Header_Header = function Header() {
+  return external__react__default.a.createElement("div", null, external__react__default.a.createElement(link__default.a, {
+    href: "/"
+  }, external__react__default.a.createElement("a", null, "FIFABB")), external__react__default.a.createElement(link__default.a, {
+    href: "/ol4"
+  }, external__react__default.a.createElement("a", {
+    style: linkStyle
+  }, "FIFA OL4")), external__react__default.a.createElement(link__default.a, {
+    href: "/ffm"
+  }, external__react__default.a.createElement("a", {
+    style: linkStyle
   }, "FIFA Mobile")));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Header);
-
-/***/ }),
-
-/***/ "./components/MyLayout.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_row_style_css__ = __webpack_require__("antd/lib/row/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_row_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_antd_lib_row_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_row__ = __webpack_require__("antd/lib/row");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_row___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_antd_lib_row__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_antd_lib_col_style_css__ = __webpack_require__("antd/lib/col/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_antd_lib_col_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_antd_lib_col_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_col__ = __webpack_require__("antd/lib/col");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_col___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_antd_lib_col__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Header__ = __webpack_require__("./components/Header.js");
+/* harmony default export */ var components_Header = (Header_Header);
+// CONCATENATED MODULE: ./components/MyLayout.js
 
 
 
 
-var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/MyLayout.js";
 
 
 
 
 var layoutStyle = {};
 
-var Layout = function Layout(_ref) {
+var MyLayout_Layout = function Layout(_ref) {
   var children = _ref.children;
-  return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_row___default.a, {
-    style: layoutStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_antd_lib_col___default.a, {
-    span: 24,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_head___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("meta", {
+  return external__react__default.a.createElement(row__default.a, {
+    style: layoutStyle
+  }, external__react__default.a.createElement(col__default.a, {
+    span: 24
+  }, external__react__default.a.createElement(head__default.a, null, external__react__default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
     className: "jsx-172840546"
-  }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("meta", {
+  }), external__react__default.a.createElement("meta", {
     charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
     className: "jsx-172840546"
-  }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("link", {
+  }), external__react__default.a.createElement("link", {
     rel: "stylesheet",
     href: "/_next/static/style.css",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
     className: "jsx-172840546"
-  })), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__Header__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }), children), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_styled_jsx_style___default.a, {
+  })), external__react__default.a.createElement(components_Header, null), children), external__react__default.a.createElement(style__default.a, {
     styleId: "172840546",
-    css: "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJ1QixBQUdrQixTQUNYIiwiZmlsZSI6ImNvbXBvbmVudHMvTXlMYXlvdXQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hb3B5L3d3dy9maWZhYmIvSGVpbWRhbGwiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5pbXBvcnQgeyBSb3csIENvbCB9IGZyb20gJ2FudGQnXG5cbmltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5cbmNvbnN0IGxheW91dFN0eWxlID0ge1xufVxuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxSb3cgc3R5bGU9e2xheW91dFN0eWxlfT5cbiAgICA8Q29sIHNwYW49ezI0fT5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8bWV0YSBuYW1lPSd2aWV3cG9ydCcgY29udGVudD0nd2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEnIC8+XG4gICAgICAgIDxtZXRhIGNoYXJTZXQ9J3V0Zi04JyAvPlxuICAgICAgICA8bGluayByZWw9J3N0eWxlc2hlZXQnIGhyZWY9Jy9fbmV4dC9zdGF0aWMvc3R5bGUuY3NzJyAvPlxuICAgICAgPC9IZWFkPlxuICAgICAgPEhlYWRlciAvPlxuICAgICAge2NoaWxkcmVufVxuICAgIDwvQ29sPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBib2R5IHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgfVxuICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC9Sb3c+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IExheW91dFxuIl19 */\n/*@ sourceURL=components/MyLayout.js */"
+    css: ["body{margin:0;}"]
   }));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Layout);
+/* harmony default export */ var MyLayout = __webpack_exports__["a"] = (MyLayout_Layout);
 
 /***/ }),
+/* 8 */
+/***/ (function(module, exports) {
 
-/***/ "./components/PlayerList.js":
+module.exports = require("next/head");
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(10);
+
+
+/***/ }),
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_table_style_css__ = __webpack_require__("antd/lib/table/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_table_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_antd_lib_table_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_table__ = __webpack_require__("antd/lib/table");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_table___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_antd_lib_table__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__(1);
+var style__default = /*#__PURE__*/__webpack_require__.n(style_);
 
-var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/PlayerList.js";
+// EXTERNAL MODULE: external "react"
+var external__react_ = __webpack_require__(0);
+var external__react__default = /*#__PURE__*/__webpack_require__.n(external__react_);
 
+// EXTERNAL MODULE: external "next/link"
+var link_ = __webpack_require__(2);
+var link__default = /*#__PURE__*/__webpack_require__.n(link_);
 
-var PlayerList = function PlayerList(_ref) {
-  var className = _ref.className,
-      columns = _ref.columns,
-      payload = _ref.payload;
-  return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("div", {
-    className: className,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    }
-  }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_table___default.a, {
-    columns: columns,
-    dataSource: payload,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }));
-};
+// EXTERNAL MODULE: ./components/MyLayout.js + 1 modules
+var MyLayout = __webpack_require__(7);
 
-/* harmony default export */ __webpack_exports__["a"] = (PlayerList);
+// EXTERNAL MODULE: external "antd/lib/button/style/css"
+var css_ = __webpack_require__(11);
+var css__default = /*#__PURE__*/__webpack_require__.n(css_);
 
-/***/ }),
+// EXTERNAL MODULE: external "antd/lib/button"
+var button_ = __webpack_require__(12);
+var button__default = /*#__PURE__*/__webpack_require__.n(button_);
 
-/***/ "./components/Search.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+// EXTERNAL MODULE: external "antd/lib/row/style/css"
+var style_css_ = __webpack_require__(3);
+var style_css__default = /*#__PURE__*/__webpack_require__.n(style_css_);
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_button_style_css__ = __webpack_require__("antd/lib/button/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_antd_lib_button_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_antd_lib_button_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_button__ = __webpack_require__("antd/lib/button");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_antd_lib_row_style_css__ = __webpack_require__("antd/lib/row/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_antd_lib_row_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_antd_lib_row_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_row__ = __webpack_require__("antd/lib/row");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_row___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_antd_lib_row__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_antd_lib_col_style_css__ = __webpack_require__("antd/lib/col/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_antd_lib_col_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_antd_lib_col_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_antd_lib_col__ = __webpack_require__("antd/lib/col");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_antd_lib_input_style_css__ = __webpack_require__("antd/lib/input/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_antd_lib_input_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_antd_lib_input_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_antd_lib_input__ = __webpack_require__("antd/lib/input");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_antd_lib_form_style_css__ = __webpack_require__("antd/lib/form/style/css");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_antd_lib_form_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_antd_lib_form_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_antd_lib_form__ = __webpack_require__("antd/lib/form");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_antd_lib_form___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_antd_lib_form__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_react__);
+// EXTERNAL MODULE: external "antd/lib/row"
+var row_ = __webpack_require__(4);
+var row__default = /*#__PURE__*/__webpack_require__.n(row_);
+
+// EXTERNAL MODULE: external "antd/lib/col/style/css"
+var col_style_css_ = __webpack_require__(5);
+var col_style_css__default = /*#__PURE__*/__webpack_require__.n(col_style_css_);
+
+// EXTERNAL MODULE: external "antd/lib/col"
+var col_ = __webpack_require__(6);
+var col__default = /*#__PURE__*/__webpack_require__.n(col_);
+
+// EXTERNAL MODULE: external "antd/lib/input/style/css"
+var input_style_css_ = __webpack_require__(13);
+var input_style_css__default = /*#__PURE__*/__webpack_require__.n(input_style_css_);
+
+// EXTERNAL MODULE: external "antd/lib/input"
+var input_ = __webpack_require__(14);
+var input__default = /*#__PURE__*/__webpack_require__.n(input_);
+
+// EXTERNAL MODULE: external "antd/lib/form/style/css"
+var form_style_css_ = __webpack_require__(15);
+var form_style_css__default = /*#__PURE__*/__webpack_require__.n(form_style_css_);
+
+// EXTERNAL MODULE: external "antd/lib/form"
+var form_ = __webpack_require__(16);
+var form__default = /*#__PURE__*/__webpack_require__.n(form_);
+
+// CONCATENATED MODULE: ./components/Search.js
 
 
 
@@ -299,219 +294,92 @@ var PlayerList = function PlayerList(_ref) {
 
 
 
-var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/Search.js";
 
 
-var FormItem = __WEBPACK_IMPORTED_MODULE_9_antd_lib_form___default.a.Item;
+var FormItem = form__default.a.Item;
 
-var Search = function Search(props) {
-  return __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
+var Search_Search = function Search(props) {
+  return external__react__default.a.createElement("div", {
     className: "jsx-2846853666"
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9_antd_lib_form___default.a, {
-    className: "search-form",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_antd_lib_row___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u7403\u5458\u59D3\u540D",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u4F4D\u7F6E",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u6D3B\u52A8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u56FD\u5BB6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u8054\u8D5B",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u7403\u961F",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u5929\u8D4B",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    }
-  }))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
-    span: 6,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(FormItem, {
-    label: "\u5E38\u7528\u811A",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7_antd_lib_input___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    }
-  })))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_antd_lib_row___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_antd_lib_col___default.a, {
+  }, external__react__default.a.createElement(form__default.a, {
+    className: "search-form"
+  }, external__react__default.a.createElement(row__default.a, null, external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u7403\u5458\u59D3\u540D"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u4F4D\u7F6E"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u6D3B\u52A8"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u56FD\u5BB6"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u8054\u8D5B"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u7403\u961F"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u5929\u8D4B"
+  }, external__react__default.a.createElement(input__default.a, null))), external__react__default.a.createElement(col__default.a, {
+    span: 6
+  }, external__react__default.a.createElement(FormItem, {
+    label: "\u5E38\u7528\u811A"
+  }, external__react__default.a.createElement(input__default.a, null)))), external__react__default.a.createElement(row__default.a, null, external__react__default.a.createElement(col__default.a, {
     span: 24,
     style: {
       textAlign: 'right'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
     }
-  }, __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default.a, {
+  }, external__react__default.a.createElement(button__default.a, {
     type: "primary",
-    htmlType: "submit",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    }
-  }, "\u641C\u7D22"), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_button___default.a, {
-    className: "btn-clear",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    }
-  }, "\u6E05\u7A7A")))), __WEBPACK_IMPORTED_MODULE_11_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_10_styled_jsx_style___default.a, {
+    htmlType: "submit"
+  }, "\u641C\u7D22"), external__react__default.a.createElement(button__default.a, {
+    className: "btn-clear"
+  }, "\u6E05\u7A7A")))), external__react__default.a.createElement(style__default.a, {
     styleId: "2846853666",
-    css: ".search-form{padding:24px;background:#fbfbfb;border:1px solid #d9d9d9;borderR-radius:6px;}.search-form .ant-form-item{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.search-form .ant-form-item-label{width:100px;}.search-form .ant-form-item-control-wrapper{-webkit-box-flex:1;-ms-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}.search-form .btn-clear{margin-left:8px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvU2VhcmNoLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTBEdUIsQUFHc0IsQUFNTyxBQUtSLEFBR08sQUFLSCxZQVB4QixDQVgyQixHQW1CM0IsR0FMdUIsQ0FSSyxVQVNMLEVBZFUsUUFNWixpQkFKaEIsTUFhTCxhQWJNLHNDQUtOIiwiZmlsZSI6ImNvbXBvbmVudHMvU2VhcmNoLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9tYW9weS93d3cvZmlmYWJiL0hlaW1kYWxsIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRm9ybSwgUm93LCBDb2wsIElucHV0LCBCdXR0b24gfSBmcm9tICdhbnRkJ1xuXG5jb25zdCBGb3JtSXRlbSA9IEZvcm0uSXRlbVxuXG5jb25zdCBTZWFyY2ggPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8Rm9ybVxuICAgICAgY2xhc3NOYW1lPVwic2VhcmNoLWZvcm1cIlxuICAgID5cbiAgICAgIDxSb3c+XG4gICAgICAgIDxDb2wgc3Bhbj17Nn0+XG4gICAgICAgICAgPEZvcm1JdGVtIGxhYmVsPVwi55CD5ZGY5aeT5ZCNXCI+XG4gICAgICAgICAgICA8SW5wdXQgLz5cbiAgICAgICAgICA8L0Zvcm1JdGVtPlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBzcGFuPXs2fT5cbiAgICAgICAgICA8Rm9ybUl0ZW0gbGFiZWw9XCLkvY3nva5cIj5cbiAgICAgICAgICAgIDxJbnB1dCAvPlxuICAgICAgICAgIDwvRm9ybUl0ZW0+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIHNwYW49ezZ9PlxuICAgICAgICAgIDxGb3JtSXRlbSBsYWJlbD1cIua0u+WKqFwiPlxuICAgICAgICAgICAgPElucHV0IC8+XG4gICAgICAgICAgPC9Gb3JtSXRlbT5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgc3Bhbj17Nn0+XG4gICAgICAgICAgPEZvcm1JdGVtIGxhYmVsPVwi5Zu95a62XCI+XG4gICAgICAgICAgICA8SW5wdXQgLz5cbiAgICAgICAgICA8L0Zvcm1JdGVtPlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBzcGFuPXs2fT5cbiAgICAgICAgICA8Rm9ybUl0ZW0gbGFiZWw9XCLogZTotZtcIj5cbiAgICAgICAgICAgIDxJbnB1dCAvPlxuICAgICAgICAgIDwvRm9ybUl0ZW0+XG4gICAgICAgIDwvQ29sPlxuICAgICAgICA8Q29sIHNwYW49ezZ9PlxuICAgICAgICAgIDxGb3JtSXRlbSBsYWJlbD1cIueQg+mYn1wiPlxuICAgICAgICAgICAgPElucHV0IC8+XG4gICAgICAgICAgPC9Gb3JtSXRlbT5cbiAgICAgICAgPC9Db2w+XG4gICAgICAgIDxDb2wgc3Bhbj17Nn0+XG4gICAgICAgICAgPEZvcm1JdGVtIGxhYmVsPVwi5aSp6LWLXCI+XG4gICAgICAgICAgICA8SW5wdXQgLz5cbiAgICAgICAgICA8L0Zvcm1JdGVtPlxuICAgICAgICA8L0NvbD5cbiAgICAgICAgPENvbCBzcGFuPXs2fT5cbiAgICAgICAgICA8Rm9ybUl0ZW0gbGFiZWw9XCLluLjnlKjohJpcIj5cbiAgICAgICAgICAgIDxJbnB1dCAvPlxuICAgICAgICAgIDwvRm9ybUl0ZW0+XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgICA8Um93PlxuICAgICAgICA8Q29sIHNwYW49ezI0fSBzdHlsZT17eyB0ZXh0QWxpZ246ICdyaWdodCcgfX0+XG4gICAgICAgICAgPEJ1dHRvbiB0eXBlPVwicHJpbWFyeVwiIGh0bWxUeXBlPVwic3VibWl0XCI+5pCc57SiPC9CdXR0b24+XG4gICAgICAgICAgPEJ1dHRvbiBjbGFzc05hbWU9XCJidG4tY2xlYXJcIj7muIXnqbo8L0J1dHRvbj5cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0Zvcm0+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIC5zZWFyY2gtZm9ybSB7XG4gICAgICAgIHBhZGRpbmc6IDI0cHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICNmYmZiZmI7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNkOWQ5ZDk7XG4gICAgICAgIGJvcmRlclItcmFkaXVzOiA2cHg7XG5cbiAgICAgICAgJiAuYW50LWZvcm0taXRlbSB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgfVxuICAgICAgICAmIC5hbnQtZm9ybS1pdGVtLWxhYmVsIHtcbiAgICAgICAgICB3aWR0aDogMTAwcHg7XG4gICAgICAgIH1cbiAgICAgICAgJiAuYW50LWZvcm0taXRlbS1jb250cm9sLXdyYXBwZXIge1xuICAgICAgICAgIGZsZXg6IDE7XG4gICAgICAgIH1cblxuICAgICAgICAmIC5idG4tY2xlYXIge1xuICAgICAgICAgIG1hcmdpbi1sZWZ0OiA4cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICBgfVxuICAgIDwvc3R5bGU+XG4gIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBTZWFyY2hcbiJdfQ== */\n/*@ sourceURL=components/Search.js */"
+    css: [".search-form{padding:24px;background:#fbfbfb;border:1px solid #d9d9d9;borderR-radius:6px;}", ".search-form .ant-form-item{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}", ".search-form .ant-form-item-label{width:100px;}", ".search-form .ant-form-item-control-wrapper{-webkit-box-flex:1;-ms-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}", ".search-form .btn-clear{margin-left:8px;}"]
   }));
 };
 
-/* harmony default export */ __webpack_exports__["a"] = (Search);
+/* harmony default export */ var components_Search = (Search_Search);
+// EXTERNAL MODULE: external "antd/lib/table/style/css"
+var table_style_css_ = __webpack_require__(17);
+var table_style_css__default = /*#__PURE__*/__webpack_require__.n(table_style_css_);
 
-/***/ }),
+// EXTERNAL MODULE: external "antd/lib/table"
+var table_ = __webpack_require__(18);
+var table__default = /*#__PURE__*/__webpack_require__.n(table_);
 
-/***/ "./config/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+// CONCATENATED MODULE: ./components/PlayerList.js
 
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__list__ = __webpack_require__("./config/list/index.js");
 
-/* harmony default export */ __webpack_exports__["a"] = ({
-  list: __WEBPACK_IMPORTED_MODULE_0__list__["a" /* default */]
-});
 
-/***/ }),
 
-/***/ "./config/list/ffm.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+var PlayerList_PlayerList = function PlayerList(_ref) {
+  var className = _ref.className,
+      columns = _ref.columns,
+      payload = _ref.payload;
+  return external__react__default.a.createElement("div", {
+    className: className
+  }, external__react__default.a.createElement(table__default.a, {
+    columns: columns,
+    dataSource: payload
+  }));
+};
 
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ({
+/* harmony default export */ var components_PlayerList = (PlayerList_PlayerList);
+// CONCATENATED MODULE: ./config/list/ffm.js
+/* harmony default export */ var ffm = ({
   columns: [{
     title: '',
     dataIndex: 'avatar'
@@ -553,38 +421,18 @@ var Search = function Search(props) {
     dataIndex: 'total'
   }]
 });
+// CONCATENATED MODULE: ./config/list/index.js
 
-/***/ }),
-
-/***/ "./config/list/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ffm__ = __webpack_require__("./config/list/ffm.js");
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  ffm: __WEBPACK_IMPORTED_MODULE_0__ffm__["a" /* default */]
+/* harmony default export */ var list = ({
+  ffm: ffm
 });
+// CONCATENATED MODULE: ./config/index.js
 
-/***/ }),
-
-/***/ "./database/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__player__ = __webpack_require__("./database/player/index.js");
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  player: __WEBPACK_IMPORTED_MODULE_0__player__["a" /* default */]
+/* harmony default export */ var config = ({
+  list: list
 });
-
-/***/ }),
-
-/***/ "./database/player/ffm/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = ([{
+// CONCATENATED MODULE: ./database/player/ffm/index.js
+/* harmony default export */ var player_ffm = ([{
   "Overall": 89,
   "Acceleration": 98,
   "Sprint Speed": 87,
@@ -1313,38 +1161,17 @@ var Search = function Search(props) {
   "Height": 192,
   "Strong Foot": "右脚"
 }]);
+// CONCATENATED MODULE: ./database/player/index.js
 
-/***/ }),
-
-/***/ "./database/player/index.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ffm__ = __webpack_require__("./database/player/ffm/index.js");
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  ffm: __WEBPACK_IMPORTED_MODULE_0__ffm__["a" /* default */]
+/* harmony default export */ var player = ({
+  ffm: player_ffm
 });
+// CONCATENATED MODULE: ./database/index.js
 
-/***/ }),
-
-/***/ "./pages/ffm.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_MyLayout__ = __webpack_require__("./components/MyLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_Search__ = __webpack_require__("./components/Search.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_PlayerList__ = __webpack_require__("./components/PlayerList.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config__ = __webpack_require__("./config/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__database__ = __webpack_require__("./database/index.js");
-var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/pages/ffm.js";
+/* harmony default export */ var database = ({
+  player: player
+});
+// CONCATENATED MODULE: ./pages/ffm.js
 
 
 
@@ -1353,52 +1180,27 @@ var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/pages/ffm.js";
 
 
 
-var scoped = resolveScopedStyles(__WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("scope", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
+var scoped = resolveScopedStyles(external__react__default.a.createElement("scope", {
   className: "jsx-818978699"
-}, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+}, external__react__default.a.createElement(style__default.a, {
   styleId: "818978699",
-  css: ".ffm-player-list.jsx-818978699{margin-top:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2ZmbS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVZ0IsQUFHeUIsZ0JBQ2xCIiwiZmlsZSI6InBhZ2VzL2ZmbS5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbWFvcHkvd3d3L2ZpZmFiYi9IZWltZGFsbCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dCdcbmltcG9ydCBTZWFyY2ggZnJvbSAnLi4vY29tcG9uZW50cy9TZWFyY2gnXG5pbXBvcnQgUGxheWVyTGlzdCBmcm9tICcuLi9jb21wb25lbnRzL1BsYXllckxpc3QnXG5cbmltcG9ydCBjb25maWcgZnJvbSAnLi4vY29uZmlnJ1xuaW1wb3J0IGRhdGFiYXNlIGZyb20gJy4uL2RhdGFiYXNlJ1xuXG5jb25zdCBzY29wZWQgPSByZXNvbHZlU2NvcGVkU3R5bGVzKFxuICA8c2NvcGU+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgLmZmbS1wbGF5ZXItbGlzdCB7XG4gICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L3Njb3BlPlxuKVxuXG5jb25zdCBQYWdlID0gKCkgPT4gKFxuICA8ZGl2IGNsYXNzTmFtZT1cInBhZ2UtZmZtXCI+XG4gICAgPFNlYXJjaCAvPlxuICAgIDxQbGF5ZXJMaXN0XG4gICAgICBjbGFzc05hbWU9e2BmZm0tcGxheWVyLWxpc3QgJHtzY29wZWQuY2xhc3NOYW1lfWB9XG4gICAgICBjb2x1bW5zPXtjb25maWcubGlzdC5mZm0uY29sdW1uc31cbiAgICAgIHBheWxvYWQ9e2RhdGFiYXNlLnBsYXllci5mZm19XG4gICAgLz5cbiAgICA8TGluayBocmVmPVwiL2ZmbS9wbGF5ZXJcIj5cbiAgICAgIDxhPkZJRkEgTW9iaWxlIFBsYXllcjwvYT5cbiAgICA8L0xpbms+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgLnBhZ2UtZmZtIHtcbiAgICAgICAgcGFkZGluZzogMjBweCAyMHB4IDA7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcblxuZnVuY3Rpb24gcmVzb2x2ZVNjb3BlZFN0eWxlcyhzY29wZSkge1xuICByZXR1cm4ge1xuICAgIGNsYXNzTmFtZTogc2NvcGUucHJvcHMuY2xhc3NOYW1lLFxuICAgIHN0eWxlczogc2NvcGUucHJvcHMuY2hpbGRyZW5cbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiAoPExheW91dD48UGFnZT48L1BhZ2U+PC9MYXlvdXQ+KVxuIl19 */\n/*@ sourceURL=pages/ffm.js */"
+  css: [".ffm-player-list.jsx-818978699{margin-top:20px;}"]
 })));
 
-var Page = function Page() {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
+var ffm_Page = function Page() {
+  return external__react__default.a.createElement("div", {
     className: "jsx-359860292" + " " + "page-ffm"
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Search__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_PlayerList__["a" /* default */], {
+  }, external__react__default.a.createElement(components_Search, null), external__react__default.a.createElement(components_PlayerList, {
     className: "ffm-player-list ".concat(scoped.className),
-    columns: __WEBPACK_IMPORTED_MODULE_6__config__["a" /* default */].list.ffm.columns,
-    payload: __WEBPACK_IMPORTED_MODULE_7__database__["a" /* default */].player.ffm,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    }
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
-    href: "/ffm/player",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
+    columns: config.list.ffm.columns,
+    payload: database.player.ffm
+  }), external__react__default.a.createElement(link__default.a, {
+    href: "/ffm/player"
+  }, external__react__default.a.createElement("a", {
     className: "jsx-359860292"
-  }, "FIFA Mobile Player")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+  }, "FIFA Mobile Player")), external__react__default.a.createElement(style__default.a, {
     styleId: "359860292",
-    css: ".page-ffm.jsx-359860292{padding:20px 20px 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2ZmbS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2QmdCLEFBRzZCLG9CQUN0QiIsImZpbGUiOiJwYWdlcy9mZm0uanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL21hb3B5L3d3dy9maWZhYmIvSGVpbWRhbGwiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQnXG5pbXBvcnQgU2VhcmNoIGZyb20gJy4uL2NvbXBvbmVudHMvU2VhcmNoJ1xuaW1wb3J0IFBsYXllckxpc3QgZnJvbSAnLi4vY29tcG9uZW50cy9QbGF5ZXJMaXN0J1xuXG5pbXBvcnQgY29uZmlnIGZyb20gJy4uL2NvbmZpZydcbmltcG9ydCBkYXRhYmFzZSBmcm9tICcuLi9kYXRhYmFzZSdcblxuY29uc3Qgc2NvcGVkID0gcmVzb2x2ZVNjb3BlZFN0eWxlcyhcbiAgPHNjb3BlPlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5mZm0tcGxheWVyLWxpc3Qge1xuICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9zY29wZT5cbilcblxuY29uc3QgUGFnZSA9ICgpID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJwYWdlLWZmbVwiPlxuICAgIDxTZWFyY2ggLz5cbiAgICA8UGxheWVyTGlzdFxuICAgICAgY2xhc3NOYW1lPXtgZmZtLXBsYXllci1saXN0ICR7c2NvcGVkLmNsYXNzTmFtZX1gfVxuICAgICAgY29sdW1ucz17Y29uZmlnLmxpc3QuZmZtLmNvbHVtbnN9XG4gICAgICBwYXlsb2FkPXtkYXRhYmFzZS5wbGF5ZXIuZmZtfVxuICAgIC8+XG4gICAgPExpbmsgaHJlZj1cIi9mZm0vcGxheWVyXCI+XG4gICAgICA8YT5GSUZBIE1vYmlsZSBQbGF5ZXI8L2E+XG4gICAgPC9MaW5rPlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5wYWdlLWZmbSB7XG4gICAgICAgIHBhZGRpbmc6IDIwcHggMjBweCAwO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pXG5cbmZ1bmN0aW9uIHJlc29sdmVTY29wZWRTdHlsZXMoc2NvcGUpIHtcbiAgcmV0dXJuIHtcbiAgICBjbGFzc05hbWU6IHNjb3BlLnByb3BzLmNsYXNzTmFtZSxcbiAgICBzdHlsZXM6IHNjb3BlLnByb3BzLmNoaWxkcmVuXG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKDxMYXlvdXQ+PFBhZ2U+PC9QYWdlPjwvTGF5b3V0PilcbiJdfQ== */\n/*@ sourceURL=pages/ffm.js */"
+    css: [".page-ffm.jsx-359860292{padding:20px 20px 0;}"]
   }));
 };
 
@@ -1409,141 +1211,57 @@ function resolveScopedStyles(scope) {
   };
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_MyLayout__["a" /* default */], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(Page, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    }
-  }));
+/* harmony default export */ var pages_ffm = __webpack_exports__["default"] = (function () {
+  return external__react__default.a.createElement(MyLayout["a" /* default */], null, external__react__default.a.createElement(ffm_Page, null));
 });
 
 /***/ }),
-
-/***/ 4:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./pages/ffm.js");
-
-
-/***/ }),
-
-/***/ "antd/lib/button":
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/button");
-
-/***/ }),
-
-/***/ "antd/lib/button/style/css":
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/button/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/col":
+/* 12 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/col");
+module.exports = require("antd/lib/button");
 
 /***/ }),
-
-/***/ "antd/lib/col/style/css":
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/col/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/form":
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/form");
-
-/***/ }),
-
-/***/ "antd/lib/form/style/css":
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/form/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/input":
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/input");
-
-/***/ }),
-
-/***/ "antd/lib/input/style/css":
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/input/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/row":
+/* 14 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/row");
+module.exports = require("antd/lib/input");
 
 /***/ }),
-
-/***/ "antd/lib/row/style/css":
+/* 15 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/row/style/css");
+module.exports = require("antd/lib/form/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/table":
+/* 16 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/table");
+module.exports = require("antd/lib/form");
 
 /***/ }),
-
-/***/ "antd/lib/table/style/css":
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/table/style/css");
 
 /***/ }),
-
-/***/ "next/head":
+/* 18 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "next/link":
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
+module.exports = require("antd/lib/table");
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=ffm.js.map
+/******/ ]);
