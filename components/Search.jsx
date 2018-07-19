@@ -1,8 +1,10 @@
-import { Form, Row, Col, Input, Button } from 'antd'
+import {
+  Form, Row, Col, Input, Button,
+} from 'antd';
 
-const FormItem = Form.Item
+const FormItem = Form.Item;
 
-const Search = (props) => (
+const Search = props => (
   <div>
     <Form
       className="search-form"
@@ -51,12 +53,17 @@ const Search = (props) => (
       </Row>
       <Row>
         <Col span={24} style={{ textAlign: 'right' }}>
-          <Button type="primary" htmlType="submit">搜索</Button>
-          <Button className="btn-clear">清空</Button>
+          <Button type="primary" htmlType="submit">
+            搜索
+          </Button>
+          <Button className="btn-clear">
+            清空
+          </Button>
         </Col>
       </Row>
     </Form>
-    <style jsx global>{`
+    <style jsx global>
+      {`
       .search-form {
         padding: 24px;
         background: #fbfbfb;
@@ -80,6 +87,6 @@ const Search = (props) => (
     `}
     </style>
   </div>
-)
+);
 
-export default Search
+export default Search;

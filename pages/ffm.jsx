@@ -1,20 +1,22 @@
-import Link from 'next/link'
-import Layout from '../components/MyLayout'
-import Search from '../components/Search'
-import PlayerList from '../components/PlayerList'
+import Link from 'next/link';
+import Layout from '../components/MyLayout';
+import Search from '../components/Search';
+import PlayerList from '../components/PlayerList';
 
-import config from '../config'
-import database from '../database'
+import config from '../config';
+import database from '../database';
 
 const scoped = resolveScopedStyles(
   <scope>
-    <style jsx>{`
+    <style jsx>
+      {`
       .ffm-player-list {
         margin-top: 20px;
       }
-    `}</style>
-  </scope>
-)
+    `}
+    </style>
+  </scope>,
+);
 
 const Page = () => (
   <div className="page-ffm">
@@ -25,21 +27,30 @@ const Page = () => (
       payload={database.player.ffm}
     />
     <Link href="/ffm/player">
-      <a>FIFA Mobile Player</a>
+      <a>
+FIFA Mobile Player
+      </a>
     </Link>
-    <style jsx>{`
+    <style jsx>
+      {`
       .page-ffm {
         padding: 20px 20px 0;
       }
-    `}</style>
+    `}
+
+    </style>
   </div>
-)
+);
 
 function resolveScopedStyles(scope) {
   return {
     className: scope.props.className,
-    styles: scope.props.children
-  }
+    styles: scope.props.children,
+  };
 }
 
-export default () => (<Layout><Page></Page></Layout>)
+export default () => (
+  <Layout>
+    <Page />
+  </Layout>
+);

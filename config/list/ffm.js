@@ -1,42 +1,42 @@
 export default {
   columns: [{
     title: '',
-    dataIndex: 'avatar'
+    dataIndex: 'avatar',
   }, {
     title: '评分',
-    dataIndex: 'Overall'
+    dataIndex: 'Overall',
   }, {
     title: '姓名',
-    dataIndex: 'Chinese Name'
+    dataIndex: 'Chinese Name',
   }, {
     title: '位置',
-    dataIndex: 'Position'
+    dataIndex: 'Position',
   }, {
     title: '俱乐部',
-    dataIndex: 'club_logo'
+    dataIndex: 'club_logo',
   }, {
     title: '国家',
-    dataIndex: 'nation_logo'
+    dataIndex: 'nation_logo',
   }, {
     title: '活动',
-    dataIndex: 'activity'
+    dataIndex: 'activity',
   }, {
     title: '步频',
-    dataIndex: 'pace'
+    dataIndex: 'pace',
   }, {
     title: '射术',
-    dataIndex: 'shooting'
+    dataIndex: 'shooting',
   }, {
     title: '传球',
-    dataIndex: 'passing'
+    dataIndex: 'passing',
   }, {
     title: '灵活',
-    dataIndex: 'agilty'
+    dataIndex: 'agilty',
   }, {
     title: '体格',
-    dataIndex: 'body'
+    dataIndex: 'body',
   }, {
     title: '合计',
-    dataIndex: 'total'
-  }]
-}
+    dataIndex: 'total',
+  }],
+};

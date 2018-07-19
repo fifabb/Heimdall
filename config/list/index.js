@@ -1,5 +1,5 @@
-import ffm from './ffm'
+import ffm from './ffm';
 
 export default {
-  ffm
-}
+  ffm,
+};

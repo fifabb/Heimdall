@@ -1,4 +1,4 @@
-import { Table } from 'antd'
+import { Table } from 'antd';
 
 const PlayerList = ({ className, columns, payload }) => (
   <div className={className}>
@@ -7,6 +7,6 @@ const PlayerList = ({ className, columns, payload }) => (
       dataSource={payload}
     />
   </div>
-)
+);
 
-export default PlayerList
+export default PlayerList;
