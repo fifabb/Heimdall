@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 import Layout from '../components/MyLayout';
 import Search from '../components/Search';
@@ -5,6 +6,13 @@ import PlayerList from '../components/PlayerList';
 
 import config from '../config';
 import database from '../database';
+
+function resolveScopedStyles(scope) {
+  return {
+    className: scope.props.className,
+    styles: scope.props.children,
+  };
+}
 
 const scoped = resolveScopedStyles(
   <scope>
@@ -27,8 +35,8 @@ const Page = () => (
       payload={database.player.ffm}
     />
     <Link href="/ffm/player">
-      <a>
-FIFA Mobile Player
+      <a href="/ffm/player">
+        FIFA Mobile Player
       </a>
     </Link>
     <style jsx>
@@ -41,13 +49,6 @@ FIFA Mobile Player
     </style>
   </div>
 );
-
-function resolveScopedStyles(scope) {
-  return {
-    className: scope.props.className,
-    styles: scope.props.children,
-  };
-}
 
 export default () => (
   <Layout>
