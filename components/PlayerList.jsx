@@ -1,3 +1,4 @@
+import React from 'react';
 import { Table } from 'antd';
 
 const PlayerList = ({ className, columns, payload }) => (
@@ -5,6 +6,7 @@ const PlayerList = ({ className, columns, payload }) => (
     <Table
       columns={columns}
       dataSource={payload}
+      rowKey="ID"
     />
   </div>
 );

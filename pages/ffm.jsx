@@ -41,11 +41,10 @@ const Page = () => (
     </Link>
     <style jsx>
       {`
-      .page-ffm {
-        padding: 20px 20px 0;
-      }
-    `}
-
+        .page-ffm {
+          padding: 20px 20px 0;
+        }
+      `}
     </style>
   </div>
 );

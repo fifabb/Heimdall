@@ -1,1 +1,0 @@
-{"version":3,"file":"5.45d72ef207e11ba8b31c.hot-update.js","sources":["webpack:///components/PlayerList.js"],"sourcesContent":["const PlayerList = () => (\n  <div></div>\n)\n\nexport default PlayerList\n\n\n\n// WEBPACK FOOTER //\n// components/PlayerList.js"],"mappings":";;;;;;;;;;;AAAA;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AADA;AACA;AAGA;;;;A","sourceRoot":""}
