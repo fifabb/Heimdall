@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default {
   columns: [{
@@ -11,9 +12,11 @@ export default {
     title: '姓名',
     dataIndex: 'Chinese Name',
     render: text => (
-      <a href="javascript:;">
-        {text}
-      </a>
+      <Link href="/ffm/player">
+        <a href="javascript:;">
+          {text}
+        </a>
+      </Link>
     ),
   }, {
     title: '位置',

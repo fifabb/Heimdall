@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Layout from '../components/MyLayout';
 import Search from '../components/Search';
 import PlayerList from '../components/PlayerList';
@@ -34,11 +33,6 @@ const Page = () => (
       columns={config.list.ffm.columns}
       payload={database.player.ffm}
     />
-    <Link href="/ffm/player">
-      <a href="/ffm/player">
-        FIFA Mobile Player
-      </a>
-    </Link>
     <style jsx>
       {`
         .page-ffm {
