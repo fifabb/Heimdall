@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -78,57 +78,70 @@ module.exports =
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components__ = __webpack_require__("styled-components");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_components___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_styled_components__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
 var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/Header.jsx";
 
 
-var linkStyle = {
-  marginLeft: 20
-};
+
+var NavBar = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.div.withConfig({
+  displayName: "Header__NavBar",
+  componentId: "xpu9px-0"
+})(["background:black;height:80px;line-height:80px;padding:0 30px;display:flex;"]);
+var NavLink = __WEBPACK_IMPORTED_MODULE_1_styled_components___default.a.a.withConfig({
+  displayName: "Header__NavLink",
+  componentId: "xpu9px-1"
+})(["color:white;padding:0 16px;font-size:", ";&:hover{color:", ";}"], function (_ref) {
+  var logo = _ref.logo;
+  return logo ? '28px' : '18px';
+}, function (_ref2) {
+  var logo = _ref2.logo;
+  return logo ? 'white' : '#f93b78';
+});
 
 var Header = function Header() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(NavBar, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 23
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 24
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(NavLink, {
+    logo: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 25
     }
-  }, "FIFABB")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+  }, "FIFABB")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/ol4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 29
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(NavLink, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 30
     }
-  }, "FIFA OL4")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+  }, "FIFA OL4")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
     href: "/ffm",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 34
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(NavLink, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 35
     }
-  }, "FIFA Mobile")));
+  }, "FIFA \u8DB3\u7403\u4E16\u754C")));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Header);
@@ -147,13 +160,11 @@ var Header = function Header() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_antd_lib_col_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_antd_lib_col_style_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_col__ = __webpack_require__("antd/lib/col");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_antd_lib_col___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_antd_lib_col__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Header__ = __webpack_require__("./components/Header.jsx");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Header__ = __webpack_require__("./components/Header.jsx");
 
 
 
@@ -163,59 +174,37 @@ var _jsxFileName = "/Users/maopy/www/fifabb/Heimdall/components/MyLayout.jsx";
 
 
 
-var layoutStyle = {};
-
 var Layout = function Layout(_ref) {
   var children = _ref.children;
-  return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_row___default.a, {
-    style: layoutStyle,
+  return __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_antd_lib_row___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 8
     }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_antd_lib_col___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_antd_lib_col___default.a, {
     span: 24,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6_next_head___default.a, {
+  }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 10
     }
-  }, __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    className: "jsx-172840546"
-  }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("meta", {
-    charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    className: "jsx-172840546"
-  }), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement("link", {
+  }, __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement("link", {
     rel: "stylesheet",
     href: "/_next/static/style.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    className: "jsx-172840546"
-  })), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__Header__["a" /* default */], {
+      lineNumber: 11
+    }
+  })), __WEBPACK_IMPORTED_MODULE_4_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Header__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 13
     }
-  }), children), __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_styled_jsx_style___default.a, {
-    styleId: "172840546",
-    css: "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvTXlMYXlvdXQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCTyxBQUdrQixTQUNYIiwiZmlsZSI6ImNvbXBvbmVudHMvTXlMYXlvdXQuanN4Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy9tYW9weS93d3cvZmlmYWJiL0hlaW1kYWxsIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XG5pbXBvcnQgeyBSb3csIENvbCB9IGZyb20gJ2FudGQnO1xuXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJztcblxuY29uc3QgbGF5b3V0U3R5bGUgPSB7XG59O1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxSb3cgc3R5bGU9e2xheW91dFN0eWxlfT5cbiAgICA8Q29sIHNwYW49ezI0fT5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTFcIiAvPlxuICAgICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxuICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cIi9fbmV4dC9zdGF0aWMvc3R5bGUuY3NzXCIgLz5cbiAgICAgIDwvSGVhZD5cbiAgICAgIDxIZWFkZXIgLz5cbiAgICAgIHtjaGlsZHJlbn1cbiAgICA8L0NvbD5cbiAgICA8c3R5bGUganN4IGdsb2JhbD5cbiAgICAgIHtgXG4gICAgICBib2R5IHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgfVxuICAgIGB9XG4gICAgPC9zdHlsZT5cbiAgPC9Sb3c+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=components/MyLayout.jsx */"
-  }));
+  }), children));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
@@ -1434,7 +1423,7 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/ffm.jsx");
@@ -1544,6 +1533,13 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-components":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
 
 /***/ }),
 
